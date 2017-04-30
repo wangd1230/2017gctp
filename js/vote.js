@@ -24,7 +24,11 @@ $(document).ready(function(){
         player1.save();
         $('.number').text(number1);
         $('.number1').text(number1);
-        window.location.reload(true);
+        // window.location.reload(true);
+        // window.close();
+        window.opener=null;
+window.open('','_self');
+window.close();
       }; 
       $("#xs1").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -33,7 +37,7 @@ $(document).ready(function(){
       $(".l1").html("14表演");
       $("#gxy").attr("src","./images/h1-1.png");
       $('.number').text(number1);
-      $('#vote').click(vote1);
+      // $('#vote').click(vote1);
     });
     }, function (error) {
     // 异常处理
@@ -62,7 +66,7 @@ $(document).ready(function(){
     $(".l1").html("15音导");
     $('#gxy').attr("src","./images/h2-1.png")
       $('.number').text(number2);
-      $('#vote').click(vote2);
+      // $('#vote').click(vote2);
     });
     }, function (error) {
     // 异常处理
@@ -96,7 +100,7 @@ $(document).ready(function(){
     $(".l1").html("15法语");
     $("#gxy").attr("src","./images/h3-1.png");
       $('.number').text(number3);
-       $('#vote').click(vote3);
+       // $('#vote').click(vote3);
     });
     }, function (error) {
     // 异常处理
@@ -127,7 +131,7 @@ $(document).ready(function(){
     $(".l1").html("16声表");
     $("#gxy").attr("src","./images/h4-1.png");
     $('.number').text(number4);
-      $('#vote').click(vote4);
+      // $('#vote').click(vote4);
     });
     }, function (error) {
     // 异常处理
@@ -156,7 +160,7 @@ $(document).ready(function(){
     $(".l1").html("16广电研");
     $("#gxy").attr("src","./images/h5-1.png");
       $('.number').text(number5);
-      $('#vote').click(vote5);
+      // $('#vote').click(vote5);
     });
     }, function (error) {
     // 异常处理
@@ -184,7 +188,7 @@ $(document).ready(function(){
     $(".l1").html("15影视动画");
     $("#gxy").attr("src","./images/h6-1.png");
       $('.number').text(number6);
-      $('#vote').click(vote6);
+      // $('#vote').click(vote6);
     });
     }, function (error) {
     // 异常处理
@@ -213,7 +217,7 @@ $(document).ready(function(){
     $(".l1").html("16通信");
     $("#gxy").attr("src","./images/h7-1.png");
       $('.number').text(number7);
-      $('#vote').click(vote7);
+      // $('#vote').click(vote7);
     });
     }, function (error) {
     // 异常处理
@@ -242,7 +246,7 @@ $(document).ready(function(){
     $(".l1").html("15声表");
     $("#gxy").attr("src","./images/h8-1.png");
       $('.number').text(number8);
-      $('#vote').click(vote8);
+      // $('#vote').click(vote8);
     });
     }, function (error) {
     // 异常处理
@@ -271,7 +275,7 @@ $(document).ready(function(){
     $("#gxy").attr("src","./images/h9-1.png");
       $('.number').text(number9);
 
-      $('#vote').click(vote9);
+      // $('#vote').click(vote9);
     });
     }, function (error) {
     // 异常处理
@@ -299,7 +303,7 @@ $(document).ready(function(){
     $(".l1").html("14音传");
     $("#gxy").attr("src","./images/h10-1.png");
       $('.number').text(number10);
-      $('#vote').click(vote10);
+      // $('#vote').click(vote10);
     });
     }, function (error) {
     // 异常处理
