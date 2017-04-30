@@ -24,6 +24,7 @@ $(document).ready(function(){
         player1.save();
         $('.number').text(number1);
         $('.number1').text(number1);
+        window.location.reload(true);
       }; 
       $("#xs1").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -52,6 +53,7 @@ $(document).ready(function(){
         player2.save();
         $('.number').text(number2);
         $('.number3').text(number2);
+        window.location.reload(true);
       }; 
       $("#xs2").click(function(){
     $(".circle").attr("src","./images/h1-3.png");
@@ -83,6 +85,7 @@ $(document).ready(function(){
         player3.save();
         $('.number').text(number3);
         $('.number5').text(number3);
+        window.location.reload(true);
       }; 
       $("#xs3").click(function(){
     $('.ms').css("left","34%")
@@ -115,6 +118,7 @@ $(document).ready(function(){
         player4.save();
         $('.number').text(number4);
         $('.number7').text(number4);
+        window.location.reload(true);
       }; 
       $("#xs4").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -143,6 +147,7 @@ $(document).ready(function(){
         player5.save();
         $('.number').text(number5);
         $('.number9').text(number5);
+        window.location.reload(true);
       }; 
       $("#xs5").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -170,6 +175,7 @@ $(document).ready(function(){
         player6.save();
         $('.number').text(number6);
         $('.number2').text(number6);
+        window.location.reload(true);
       }; 
       $("#xs6").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -198,6 +204,7 @@ $(document).ready(function(){
         player7.save();
         $('.number').text(number7);
         $('.number4').text(number7);
+        window.location.reload(true);
       }; 
       $("#xs7").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -226,6 +233,7 @@ $(document).ready(function(){
         player8.save();
         $('.number').text(number8);
         $('.number6').text(number8);
+        window.location.reload(true);
       }; 
       $("#xs8").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -253,6 +261,7 @@ $(document).ready(function(){
         player9.save();
         $('.number').text(number9);
         $('.number8').text(number9);
+        window.location.reload(true);
       }; 
       $("#xs9").click(function(){
       $(".circle").attr("src","./images/h1-2.png");
@@ -281,6 +290,7 @@ $(document).ready(function(){
         player10.save();
         $('.number').text(number10);
         $('.number10').text(number10);
+        window.location.reload(true);
       }; 
       $("#xs10").click(function(){
     $(".circle").attr("src","./images/h1-2.png");
