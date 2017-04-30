@@ -14,7 +14,7 @@ $(document).ready(function(){
       var name = player1.get('name');// 读取 name
       $('.name').text(name);
       var number1 = player1.get('number');// 读取 number
-      $('.number1').text(number1);
+      $('.number1').text(10830);
 
       
       function vote1() {
@@ -36,7 +36,7 @@ window.close();
       $(".l2").html("曹牧之 叶梓靖");
       $(".l1").html("14表演");
       $("#gxy").attr("src","./images/h1-1.png");
-      $('.number').text(number1);
+      $('.number').text(10830);
       // $('#vote').click(vote1);
     });
     }, function (error) {
