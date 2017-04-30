@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>广春投票</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src=js/vote.js></script>
+	<script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/players.js"></script>
+	<script type="text/javascript" src="js/vote.js"></script>
+	<!-- <script type="text/javascript" src="js/vote1.js"></script> -->
+</head>
+<body>
+	<div class="container">
+	<div class="banner">
+		<img src="images/logo.png" alt="">
+	</div>
+	<div class="content">
+		<div class="one">
+		<span id="click">
+			<img src="images/1img.png" alt="" id="xs1">
+		</span>
+			<p>曹牧之  叶梓靖</p><br/>
+			<p class="number1"></p>
+			<p>票</p>
+		</div>
+		<div class="two">
+			<span class="click">
+			<img src="images/6img.png" alt="" id="xs6">
+			</span>
+			<p>程博强</p><br/>
+			<p>票</p>
+			<p class="number2"></p>
+		</div>
+		<div class="three">
+			<img src="images/2img.png" alt="" id="xs2">
+			<p>宋舒蕾</p><br/>
+			<p class="number3"></p>
+			<p>票</p>
+		</div>
+		<div class="four">
+			<img src="images/7img.png" alt="" id="xs7">
+			<p>涂陈昊</p><br/>
+			<p>票</p>
+			<p class="number4"></p>
+		</div>
+		<div class="five">
+			<img src="images/3img.png" alt="" id="xs3">
+			<p>王汉臣</p><br/>
+			<p class="number5"></p>
+			<p>票</p>
+		</div>
+		<div class="six">
+			<img src="images/8img.png" alt="" id="xs8">
+			<p>杨鹏宇</p><br/>
+			<p>票</p>
+			<p class="number6"></p>
+		</div>
+		<div class="seven">
+			<img src="images/4img.png" alt="" id="xs4">
+			<p>叶青雯</p><br/>
+			<p class="number7"></p>
+			<p>票</p>
+		</div>
+		<div class="eight">
+			<img src="images/9img.png" alt="" id="xs9">
+			<p>郑馨怡</p><br/>
+			<p>票</p>
+			<p class="number8"></p>
+		</div>
+		<div class="nine">
+			<img src="images/5img.png" alt="" id="xs5">
+			<p>张沁园</p><br/>
+			<p class="number9"></p>
+			<p>票</p>
+		</div>
+		<div class="ten">
+			<img src="images/10img.png" alt="" id="xs10">
+			<p>宗一介</p><br/>
+			<p>票</p>
+			<p class="number10"></p>
+		</div>
+	</div>
+	<div class="footer">
+	  <img src="images/footer.png" alt="">
+	</div>
+	
+	
+	</div>
+	<div id="hide">		
+		<div class="photo">
+			<img src="images/h1-1.png" alt="" id="gxy">
+			<div class="intro">
+			  <p class="l1"></p><br/>
+			  <p class="l2"></p><br/>
+			  <p class="number" id="l3"></p>
+			  <p class="l4">票</p>
+			</div>
+		</div>
+		<div class="circle">
+			<img src="images/h1-2.png" alt="" class="i1">
+		  	<p class="detail"></p>
+           	<img src="images/h1-3.png" alt="" class="back" id="vote">
+		</div>
+		<div id="close">
+			<p><<返回首页</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function show() {
+			// body...
+			document.getElementById('hide').style.display = 'block';
+			showdiv();
+			
+		}
+		function close() {
+			// body...
+			document.getElementById('hide').style.display = 'none';
+			hidediv();
+		}
+		document.getElementById('xs1').addEventListener('click',show);
+		document.getElementById('xs2').addEventListener('click',show);
+		document.getElementById('xs3').addEventListener('click',show);
+		document.getElementById('xs4').addEventListener('click',show);
+		document.getElementById('xs5').addEventListener('click',show);
+		document.getElementById('xs6').addEventListener('click',show);
+		document.getElementById('xs7').addEventListener('click',show);
+		document.getElementById('xs8').addEventListener('click',show);
+		document.getElementById('xs9').addEventListener('click',show);
+		document.getElementById('xs10').addEventListener('click',show);
+		document.getElementById('close').addEventListener('click',close);
+	</script>	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
