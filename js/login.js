@@ -12,7 +12,7 @@ function signup() {
     tog();
     
   }, (function (error) {
-  	alert(JSON.stringify(error));
+  	alert(JSON.stringify(error),'今日已投票',togn());
   }));
 };
 function tog(argument) {
@@ -21,6 +21,11 @@ function tog(argument) {
   // document.getElementsById('hide1').style.display = 'block';
   $('#form').css('display','none');
   $('#hide1').css('display','block');
+}
+function togn(argument) {
+  // body...
+  $('#form').css('display','block');
+  $('#hide1').css('display','none');
 }
 $(function() {
   $("#btn").click( function(e) {
